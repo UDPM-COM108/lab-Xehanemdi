@@ -2,9 +2,12 @@
 #include<math.h>
 
 int main(){
-int min, max;
+/*int min, max;
 int i = min ;
-float tong = 0, bienDiem = 0, trungbinh = 0, x ;
+float tong = 0, bienDiem = 0, trungbinh = 0, ;*/
+int x 
+int count=0
+int i
 /*
 printf("nhap gia tri min:");
 scanf("%d",&min);
@@ -21,6 +24,9 @@ scanf("%d", &max);
 printf("trung binh tong cua cac so tu nhien chia het cho 2: %.2f",  trungbinh );
 */
 printf("nhap so x de xet nghiem:");
-scanf("%d",)
+scanf("%d", &x);
+for(i=2;i<x;i++){
+   if(x%i ==0){
+      count++;
     return 0;
 }
